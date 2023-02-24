@@ -8,7 +8,8 @@ const Footer = () => {
         <div className="side">
         <div className="left">
             <h3>Neyrozit</h3>
-            <p>Sinoprost prostatit və prostat vəz adenoması <br></br>(böyüməsi) əleyhinə effektli və mükəmməl tibbi<br></br> vasitədir.</p>
+            <p>Sinir sisteminin funksiyasinin təmizlənməsi <br /> İmmum siteminin möhkəmlənməsi
+            <br/>Qanyaranma<br/>Reparasiya<br/>Regenerasiya<br/>Yuxunun Bərpasi<br/>Koqnitiv funksiyanin bərpasi<br/>Orqanizmin enerji bərpasi üçün uyğundur</p>
         </div>
         <div className="right">
             <h3>Əlaqə</h3>

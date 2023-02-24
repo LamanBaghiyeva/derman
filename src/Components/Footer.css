@@ -21,6 +21,10 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    .head{
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
 
 @media(max-width:690px){

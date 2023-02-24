@@ -27,6 +27,10 @@
 
 }
 
+
+.link a{
+    font-size: 17px;
+}
 .cross{
     color: #fff;
     position: absolute;

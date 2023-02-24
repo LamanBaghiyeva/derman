@@ -29,8 +29,7 @@ const Section = () => {
       }, []);
     return (
         <div className="section">
-            <h2 className='head'>Prostat xəstəliklərinin həm müalicəsində, həm də profilaktikasında geniş spektr <br></br>pasiyentlər üçün uyğundur.</h2>
-            <p className='text-center'>Prostat vəzinin etibarlı qarantı SİNOPROST nəhayət, Azərbaycanda!</p>
+            <h3 className='head mb-4'>Sinir sisteminin funksiyasinin təmizlənməsi,İmmum siteminin möhkəmlənməsi,<br/>Qanyaranma,Reparasiya,Regenerasiya,Yuxunun Bərpasi,Koqnitiv funksiyanin bərpasi,<br/>Orqanizmin enerji bərpasi üçün uyğundur.</h3>
             <div className="section_body">
                 <div className="row">
                     <form  ref={formelementref} onSubmit={elektronpoctagonder} className="left-side col-12 col-md-6 col-lg-4 me-5" data-aos="fade-right">
