@@ -25,15 +25,16 @@ const Navbar = () => {
     <>
     <div className="nav-link" ref={overlay}>
         <RxCross1 className='cross' onClick={closeCanvas}/>
-        <a  href="#haqqinda" className=' me-3'>Göstərişlər</a>
         <a  href="#contact" className='me-3'>Əlaqə</a>
         <a  href="#istifade" className='me-3'>Istifadəsi</a>
     </div>
 
     <div className='navbar'>
+      <div className="basliq">
         <h2 className='text-white'>Neyrozit</h2>
+      </div>
+       
         <div className="link">
-        <a  href="#haqqinda" className='text-white me-3'>Göstərişlər</a>
         <a  href="#contact" className='text-white me-3'>Əlaqə</a>
         <a  href="#istifade" className='text-white me-3'>Istifadəsi</a>
         </div>

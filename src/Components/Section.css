@@ -17,8 +17,12 @@
     color:rgb(23, 150, 150);
     text-align: center;
     line-height: 35px;
+    width: 100%;
 }
-
+.head h3{
+    margin: 0 auto;
+    width: 70%;
+}
 .section p:nth-child(2){
     font-size: 25px;
     margin-top: 18px;
@@ -81,5 +85,11 @@ textarea{
     .right-side{
         width: 400px;
 
+    }
+}
+
+@media(max-width:842px){
+    .head h3{
+      width: 90%;
     }
 }

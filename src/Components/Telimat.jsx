@@ -3,7 +3,7 @@ import './Telimat.css'
 import pic from "../assets/images/Neyrozit.jpeg"
 const Telimat = () => {
     return (
-        <div id="istifade" className='p-5 telimat'>
+        <div id="istifade" className='p-5 telimat '>
             <h2 className='mb-5'>Neyrozitin istifadəsinə dair təlimat</h2>
             <h5>Tərkibi:</h5>
             <p>Fosfatidilserin (Phosphatidylserine) - 100 mq/mg,<br />
@@ -45,7 +45,7 @@ const Telimat = () => {
                 Hamiləlik və laktasiya dövründə, xəstəlik və ya dərman istifadəsi zamanı həkimlə məsləhətləşin
                 Tövsiyə edilən sutkalıq dozanı keçməyin.
             </p>
-            <p><span className='h5 '><strong>İstehsalçının ünvanı:</strong></span>Esenyurt/İstanbul/Türkiyə</p>
+            <p><span className='h5 '><strong>İstehsalçı:</strong></span>İstanbul/Türkiyə</p>
             <h3 className='h3'>NEYROZIT</h3>
             <div className="img">
                 <img src={pic} alt="" />

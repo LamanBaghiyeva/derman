@@ -29,8 +29,11 @@ const Section = () => {
       }, []);
     return (
         <div className="section">
-            <h3 className='head mb-4'>Sinir sisteminin funksiyasinin təmizlənməsi,İmmum siteminin möhkəmlənməsi,<br/>Qanyaranma,Reparasiya,Regenerasiya,Yuxunun Bərpasi,Koqnitiv funksiyanin bərpasi,<br/>Orqanizmin enerji bərpasi üçün uyğundur.</h3>
+            <div className="head">
+            <h3 className='mb-4'>Sinir sisteminin funksiyasinin təmizlənməsi,İmmum siteminin möhkəmlənməsi,Yuxunun bərpasi,Orqanizmin enerji bərpasi üçün uyğundur.</h3>
+            </div>
             <div className="section_body">
+          
                 <div className="row">
                     <form  ref={formelementref} onSubmit={elektronpoctagonder} className="left-side col-12 col-md-6 col-lg-4 me-5" data-aos="fade-right">
                         <p className='text-center text-danger p'>Qiymet-30AZN</p>
